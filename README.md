@@ -10,9 +10,9 @@ Path to list snippet with id = 1 is http://localhost:8000/snippets/1
 Steps to build the project:
 1. Install python 3.6.3
 2. Install all dependent libraries with pip install.  All libraries are listed in requirements.txt
-2a. Run the sql statements to configure postgres ( Create roles, users, privilegies, schema ) in setuprestdemo.sql
-3. run the command:  python manage.py migrate to build the database.
-4. run the command:  python manage.py runserver
-To run the unit tests run the command python manage.py test --keepdb
-To run the BDD test run the command python manage.py behave --keepdb
+3. Run the sql statements to configure postgres ( Create roles, users, privilegies, schema ) in setuprestdemo.sql
+4. run the command:  python manage.py migrate to build the database.
+5. run the command:  python manage.py runserver
+6.To run the unit tests run the command python manage.py test --keepdb
+7. To run the BDD test run the command python manage.py behave --keepdb
 
